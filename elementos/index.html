@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta chasert="utf-8">
+        <link rel="stylesheet" type="text/css" href="pedra.css">
+        <script src="./pedra.js"></script>
+        <title>Pedra, Papel Tesoura</title>
+    </head>
+    <body>
+        <div id="principal">
+
+            <div id="meio">
+                <ul>
+                    <li><div id="pontos">
+                    <h2>Pontuação</h2>
+                    <span id="pppontos" class="pontos">0</span>
+                    <span id="pcpontos" class="pontos">0</span>
+                    </div></li>
+                
+                    <li><div id="vs">vs</div></li>
+
+                </ul>
+
+            </div>
+
+            <div id="placar">
+
+
+                <div id="player" class="jogadores">
+                    <h2 id="nome" class="nomes">Jogador</h2>
+                    
+                    <ul class="poder" id="poderp">
+                        <li><a id="pescolha-1" onclick="jogar(1)"><img src="imagem/planta.png"></a></li>
+                        <li><a id="pescolha-2" onclick="jogar(2)"><img src="imagem/fogo.png"></a></li>
+                        <li><a id="pescolha-3" onclick="jogar(3)"><img src="imagem/agua.png"></a></li>
+                    </ul>
+                </div>
+
+
+                <div id="computer" class="jogadores">
+                    <h2 id="cnome" class="nomes">Computador</h2>
+                    
+                    <ul class="poder" id="poderc">
+                        <li><a id="cescolha-1"><img src="imagem/planta.png"></a></li>
+                        <li><a id="cescolha-2"><img src="imagem/fogo.png"></a></li>
+                        <li><a id="cescolha-3"><img src="imagem/agua.png"></a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div id="mensagem">
+                <h3>Jogo dos Elementos</h3>
+                <p>Constitui em um jogo onde você escolhe o seu poder e o computador escolhe o dele. Cada poder possui ponto orte e fraco, o fogo derrota a planta a planta derrota a agua derrota o fogo.</p>
+            </div>
+
+        </div>
+    
+    </body>
+</html>

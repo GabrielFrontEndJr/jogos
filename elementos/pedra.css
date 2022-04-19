@@ -1,0 +1,124 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    overflow-x:hidden;
+}
+
+#placar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:0;
+    margin: 0;
+}
+
+span{
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+img{
+    width: 120px;
+    border-radius: 5px;
+}
+
+.jogadores {
+    position:relative;
+    flex-grow: 1;
+    width: 200px;
+
+}
+
+.poder li{
+    display: inline;
+    list-style: none;
+    
+}
+
+img{
+    opacity: 0.5;
+}
+
+#poderp img:hover{
+    opacity: 1;
+}
+
+.selecionado img{
+    opacity: 1;
+}
+
+
+
+#vs{
+    width: 150px;
+    font-size: 40px;
+    margin-left: 25px;
+}
+
+.nomes{
+    margin: 0;
+    padding: 0;
+}
+
+#nome {
+    text-align: left;
+    margin-left: 10%;
+}
+
+#cnome{
+    text-align: left;
+    margin-left: 10%;
+}
+
+#pontos{
+    width: 200px;
+    background-color: coral;
+    color:white;
+    border-radius: 5px;
+}
+
+#ppontos{
+    padding-right: 20%;
+}
+
+#cpontos{
+    padding-left: 20%;
+}
+
+#meio{
+    text-align: center;
+    display:grid;
+    margin:0;
+    padding:0;
+    margin-left: 35%;
+    margin-right: 40%;
+}
+
+#meio ul{
+    list-style: none;
+}
+
+#player{
+    margin-left:5% ;
+    text-align: left;
+}
+
+#mensagem {
+    background-color: coral;
+    border-radius: 5px;
+    color:white;
+}
+
+#men{
+    background-color: gray;
+    border-radius: 5px;
+    color:white;
+}
+
+p{
+    padding: 15px;
+}
+
+h3{
+    margin-left: 15px;
+}
